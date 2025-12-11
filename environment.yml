@@ -1,8 +1,13 @@
 name: cph100_final
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
 dependencies:
   - python=3.10
   - pandas
   - numpy
+  - pytorch
   - scikit-learn
   - umap-learn
   - matplotlib
